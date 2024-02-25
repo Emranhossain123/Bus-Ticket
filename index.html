@@ -118,46 +118,8 @@
                     testing
                     features allow for a streamlined .</p>
             </div>
-            <!-- <div>
-                <div class="flex">
-                    <div class="flex">
-                        <img src="images/bus-logo.png" alt="">
-                        <p>Greenline Paribahan</p>
-                        <span>Coach-009-WEB ! AC_Business</span>
-                         <p>Greenline Paribahan</p>
-                        <span>Coach-009-WEB ! AC_Business</span> -->
-            <!-- </div>
-                    <div class="flex">
-                        <img src="images/bus-icon.png" alt="">
-                        <p>40 seats left</p>
-                    </div>
-                </div>
-
-                <div>
-                    <div class="flex justify-between">
-                        <p>route</p>
-                        <p>dhaka-shylet</p>
-                    </div>
-                    <div class="flex justify-between">
-                        <p>depture time</p>
-                        <p>9pm</p>
-                    </div>
-                    <div class="flex justify-evenly">
-                        <button class="bg-slate-500 p-2 rounded-xl">Boarding Point - Laxmipur</button>
-                        <button class="bg-slate-500 p-2 rounded-xl">Dropping Point - Bogura</button>
-                        <button class="bg-slate-500 p-2 rounded-xl">Est. Time - 11 Hour</button>
-                    </div>
-                </div>
-                <div>
-                    <img src="images/fare.png" alt="">
-                </div>
-            </div> -->
-
-
-
-
             <div class="">
-                <div class=" ">
+                <div>
                     <div class="flex">
                         <div class="flex mt-24 px-36">
                             <div class="px-4">
@@ -174,7 +136,8 @@
                                 <img class="border-2" src="images/seat-green.png" alt="">
                             </div>
                             <div class="">
-                                <p class="text-xl font-bold text-[#1DD100]">40 Seats left</p>
+                                <p id="total-seats" class="text-xl font-bold text-[#1DD100]">12
+                                    Seats left</p>
 
                             </div>
                         </div>
@@ -195,33 +158,16 @@
                         </div>
                     </div>
                 </div>
-
-                <!-- <div class="relative m-24">
-                    <div class="absolute left-72">
-                        <img src="images/fare.png" alt="">
-                        <p class="text-2xl font-semibold">550 TK</p>
-                        <span class="text-[#03071299]">per seat</span>
-                    </div>
-
-                </div> -->
-
-
-
                 <div class="relative">
                     <div class="absolute right-10 -top-48 ">
                         <img src="images/fare.png" alt="">
-                        <p class="text-2xl font-bold raleway-semibold">550 TK</p>
+                        <h4 id="seat-price" class="text-2xl font-bold raleway-semibold">550 TK</h4>
                         <span class="text-[#03071299]">per seat</span>
                     </div>
                 </div>
             </div>
         </section>
-
-
-
         <!-- seat section -->
-
-
         <div class="flex border-2 rounded-xl ml-5 mr-5 mt-10 mx-auto ">
             <div class="flex">
                 <div class="px-16">
@@ -246,18 +192,21 @@
                             <img class="w-[40px] absolute right-16 -top-8 " src="images/images.png" alt="">
 
                         </div>
-                        <div class="mt-10  ">
-                            <div class="flex gap-10">
+                        <div id="seat-plane" class="mt-10 ">
+                            <div class="flex gap-10 ">
                                 <div>
                                     <p class="mt-8">A</p>
                                 </div>
 
-                                <div class="seat-plane">
-                                    <kbd class="kbd mr-16 mt-6 ">A1</kbd>
-                                    <kbd class="kbd mr-16 mt-6">A2</kbd>
-                                    <kbd class="kbd mr-16 mt-6">A3</kbd>
-                                    <kbd class="kbd mr-16 mt-6">A4</kbd>
-
+                                <div class="flex">
+                                    <div>
+                                        <kbd class="kbd mr-16 mt-6 ">A1</kbd>
+                                        <kbd class="kbd mr-16 mt-6">A2</kbd>
+                                    </div>
+                                    <div>
+                                        <kbd class="kbd mr-16 mt-6">A3</kbd>
+                                        <kbd class="kbd mr-16 mt-6">A4</kbd>
+                                    </div>
                                 </div>
 
                             </div>
@@ -265,147 +214,106 @@
                                 <div>
                                     <p class="mt-8">B</p>
                                 </div>
-                                <div class="seat-plane">
-                                    <kbd class="kbd mr-16 mt-6">B1</kbd>
-                                    <kbd class="kbd mr-16 mt-6">B2</kbd>
-                                    <kbd class="kbd mr-16 mt-6">B3</kbd>
-                                    <kbd class="kbd mr-16 mt-6">B4</kbd>
+                                <div class="flex">
+                                    <div>
+                                        <kbd class="kbd mr-16 mt-6">B1</kbd>
+                                        <kbd class="kbd mr-16 mt-6">B2</kbd>
+
+                                    </div>
+                                    <div> <kbd class="kbd mr-16 mt-6">B3</kbd>
+                                        <kbd class="kbd mr-16 mt-6">B4</kbd>
+                                    </div>
                                 </div>
                             </div>
                             <div class="flex gap-10">
                                 <div>
                                     <p class="mt-8">C</p>
                                 </div>
-                                <div class="seat-plane">
-                                    <kbd class="kbd mr-16 mt-6">C1</kbd>
-                                    <kbd class="kbd mr-16 mt-6">C2</kbd>
-                                    <kbd class="kbd mr-16 mt-6">C3</kbd>
-                                    <kbd class="kbd mr-16 mt-6">C4</kbd>
+                                <div class="flex">
+                                    <div>
+                                        <kbd class="kbd mr-16 mt-6">C1</kbd>
+                                        <kbd class="kbd mr-16 mt-6">C2</kbd>
+
+                                    </div>
+                                    <div> <kbd class="kbd mr-16 mt-6">C3</kbd>
+                                        <kbd class="kbd mr-16 mt-6">C4</kbd>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="flex gap-10">
-                                <div>
-                                    <p class="mt-8">D</p>
-                                </div>
-                                <div class="seat-plane">
-                                    <kbd class="kbd mr-16 mt-6">D1</kbd>
-                                    <kbd class="kbd mr-16 mt-6">D2</kbd>
-                                    <kbd class="kbd mr-16 mt-6">D3</kbd>
-                                    <kbd class="kbd mr-16 mt-6">D4</kbd>
-                                </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <img src="images/info-devider.png" alt="">
+                <div class="px-20 mt-16">
+                    <h1 class="text-xl font-bold mb-5 ">Select Your Seat</h1>
+                    <hr class="border-dashed">
+
+
+                    <div class="bg-[#F7F8F8] p-6 rounded-xl mt-5 ">
+                        <div id="ena">
+                            <div class="flex space-x-20 mt-5 ">
+                                <p class="text-xl font-semibold">Seat <span
+                                        class="border-0 bg-[#1DD100] p-2 rounded-xl  justify-center items-center font-semibold"><sup
+                                            id="seat-increase">0</sup></span>
+                                </p>
+                                <p class="text-xl font-semibold">Class</p>
+                                <p id="seat-price" class="text-xl font-semibold">Price</p>
+
                             </div>
-                            <div class="flex gap-10">
-                                <div>
-                                    <p class="mt-8">E</p>
-                                </div>
-                                <div class="seat-plane">
-                                    <kbd class="kbd mr-16 mt-6">E1</kbd>
-                                    <kbd class="kbd mr-16 mt-6">E2</kbd>
-                                    <kbd class="kbd mr-16 mt-6">E3</kbd>
-                                    <kbd class="kbd mr-16 mt-6">E4</kbd>
-                                </div>
+                        </div>
+
+                        <div id="seat-container">
+
+                        </div>
+
+                        <hr class="border-[1px]">
+                        <div class="flex justify-between text-xl font-bold">
+
+                            <div>
+                                <p>Total Price</p>
                             </div>
-                            <div class="flex gap-10">
-                                <div>
-                                    <p class="mt-8">F</p>
-                                </div>
-                                <div class="seat-plane">
-                                    <kbd class="kbd mr-16  mt-6">F1</kbd>
-                                    <kbd class="kbd mr-16  mt-6">F2</kbd>
-                                    <kbd class="kbd mr-16  mt-6">F3</kbd>
-                                    <kbd class="kbd mr-16  mt-6">F4</kbd>
-                                </div>
-                            </div>
-                            <div class="flex gap-10">
-                                <div>
-                                    <p class="mt-8">G</p>
-                                </div>
-                                <div class="seat-plane">
-                                    <kbd class="kbd mr-16 mt-6">G1</kbd>
-                                    <kbd class="kbd mr-16 mt-6">G2</kbd>
-                                    <kbd class="kbd mr-16 mt-6">G3</kbd>
-                                    <kbd class="kbd mr-16 mt-6">G4</kbd>
-                                </div>
+                            <div>
+                                <p id="total-price">BDT 0</p>
                             </div>
 
                         </div>
+
+                        <div class="flex">
+                            <input id="input-field" class="border-2 mt-5 p-4 rounded-xl w-full relative" type="text"
+                                placeholder="Have Any copupon?">
+                            <button id="btn"
+                                class="mt-[30px] p-2 rounded-xl text-white font-medium bg-[#1DD100] absolute right-40 ">Apply</button>
+                        </div>
+
+                        <div class="flex justify-between font-semibold mt-5">
+                            <p>Grand Total</p>
+                            <p>BDT 0</p>
+                        </div>
                     </div>
+                    <div>
+                        <p class="m-2 text-xl font-semibold">Passenger Name*</p>
+                        <input class="border-2 w-full p-4 rounded-xl" type="text" placeholder="Enter Your name">
+                    </div>
+                    <div>
+                        <p class="m-2 text-xl font-semibold">Phone Number*</p>
+                        <input class="border-2 w-full p-4 rounded-xl" type="text" placeholder="Enter Your phone number">
+                    </div>
+                    <div>
+                        <p class="m-2 text-xl font-semibold">Email Id</p>
+                        <input class="border-2 w-full p-4 rounded-xl" type="text" placeholder="Enter your email id">
+                    </div>
+                    <button
+                        class="border-2 w-full mt-5 mb-3 p-2 text-white font-medium bg-[#1DD100] rounded-xl">Next</button>
 
-
-
-
+                    <div class="flex justify-between">
+                        <p>Terms and Conditions</p>
+                        <p>Cancellation Policy</p>
+                    </div>
                 </div>
 
             </div>
-            <img src="images/info-devider.png" alt="">
-            <div class="px-20 mt-16">
-                <h1 class="text-xl font-bold mb-5 ">Select Your Seat</h1>
-                <hr class="border-dashed">
-
-
-                <div class="bg-[#F7F8F8] p-6 rounded-xl mt-5 ">
-                    <div class="flex space-x-20 mt-5 ">
-                        <p class="text-xl font-semibold">Seat <span
-                                class="border-0 bg-[#1DD100] p-2 rounded-xl  justify-center items-center font-semibold"><sup>0</sup></span>
-                        </p>
-                        <p class="text-xl font-semibold">Class</p>
-                        <p class="text-xl font-semibold">Price</p>
-                    </div>
-
-
-                    <div class="flex space-x-24 text-[#03071299] p-2 ">
-                        <p class="">C1</p>
-                        <p>Economoy</p>
-                        <p>0</p>
-                    </div>
-                    <div class="flex space-x-24 text-[#03071299] p-2">
-                        <p>C2</p>
-                        <p>Economoy</p>
-                        <p>0</p>
-
-                    </div>
-                    <hr class="border-[1px]">
-                    <div class="flex justify-between text-xl font-bold">
-
-                        <div>Total Price</div>
-                        <div>BDT 0</div>
-
-                    </div>
-
-                    <div class="flex">
-                        <input class="border-2 mt-5 p-4 rounded-xl w-full relative" type="text"
-                            placeholder="Have Any copupon?">
-                        <button
-                            class="mt-[30px] p-2 rounded-xl text-white font-medium bg-[#1DD100] absolute right-40 ">Apply</button>
-                    </div>
-
-                    <div class="flex justify-between font-semibold mt-5">
-                        <p>Grand Total</p>
-                        <p>BDT 0</p>
-                    </div>
-                </div>
-                <div>
-                    <p class="m-2 text-xl font-semibold">Passenger Name*</p>
-                    <input class="border-2 w-full p-4 rounded-xl" type="text" placeholder="Enter Your name">
-                </div>
-                <div>
-                    <p class="m-2 text-xl font-semibold">Phone Number*</p>
-                    <input class="border-2 w-full p-4 rounded-xl" type="text" placeholder="Enter Your phone number">
-                </div>
-                <div>
-                    <p class="m-2 text-xl font-semibold">Email Id</p>
-                    <input class="border-2 w-full p-4 rounded-xl" type="text" placeholder="Enter your email id">
-                </div>
-                <button
-                    class="border-2 w-full mt-5 mb-3 p-2 text-white font-medium bg-[#1DD100] rounded-xl">Next</button>
-
-                <div class="flex justify-between">
-                    <p>Terms and Conditions</p>
-                    <p>Cancellation Policy</p>
-                </div>
-            </div>
-
-        </div>
     </main>
     <footer>
 
