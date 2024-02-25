@@ -6,6 +6,9 @@ for (let index = 0; index < cards.length; index++) {
 
     // console.log(card);
     card.addEventListener("click", function (event) {
+        event.target.disabled = true;
+        event.target.style.background = 'green';
+
         // console.log('just-clicks');
         const key = event.target.innerText;
 
